@@ -38,6 +38,24 @@
 </head>
 
 <body>
+    <!--Whatsapp widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+971547059396", // Your WhatsApp number
+            call_to_action: "Message Us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- WhatsApp widget -->
+
+
+
     <main class="home-one overflow-x-hidden">
         <!-- start preloader -->
         
@@ -570,27 +588,10 @@ When you choose U-SAVE Renovations, you know you are working with a company comm
                 </div>
             </div>
         </footer>
+        
         <!-- end footer -->
     </main>
-    <!--Whatsapp widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+2019738352", // Your WhatsApp number
-            call_to_action: "Message Us", // Call to action
-            position: "right", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- WhatsApp widget -->
-
-
-
-
+    
     <!-- Jquery script -->
     <script src="js/jquery-3.6.4.min.js"></script>
     <!-- Bootstrap Script -->
